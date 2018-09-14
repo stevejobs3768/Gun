@@ -72,7 +72,7 @@ public class IntroScreen extends ScreenAdapter{
 	        game.batch.begin();
 	        Assets.menuFont.setColor(1,1,1,textAlpha);
 	        Assets.menuFont.getData().setScale(4);
-	        layout.setText(Assets.menuFont, "Press any key to start");
+	        layout.setText(Assets.menuFont, "Press 1, 2, or 3 to choose Easy, Medium, or Hard");
 	        Assets.menuFont.draw(game.batch, layout, (Settings.RESOLUTION.x - layout.width) / 2,
 	                (Settings.RESOLUTION.x/6));
 
